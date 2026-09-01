@@ -217,7 +217,7 @@ A full citation of the paper entry will be added here once it is published.
 
 ```
 @article{kamil_napwave,
-  title   = {NAP-Wave: Neural Adaptive Plane-Wave Basis Functions for Heterogeneous Seismic Modeling},
+  title   = {NAP-Wave: A Neural Adaptive Plane-Wave Architecture for High-Frequency Helmholtz Problems},
   author  = {Kamil, Hamza and Abedi, Mohammad Mahdi and Pardo, David},
   journal = {TBD},
   year    = {TBD}

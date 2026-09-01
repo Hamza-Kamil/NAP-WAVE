@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "nap_wave"
 version = "0.0.1"
-description = "NAP-WAVE: Neural Adaptive Plane-Wave Basis Functions for Heterogeneous Seismic Modeling"
+description = "NAP-WAVE: A Neural Adaptive Plane-Wave Architecture for High-Frequency Helmholtz Problems"
 readme = "README.md"
 requires-python = ">=3.11"  # jax==0.9.1 requires Python >=3.11
 authors = [
