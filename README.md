@@ -131,7 +131,7 @@ Each example's validation data (`data/*.npz`) ships with this repository, so eve
 
 The **trained checkpoints** (`Results/checkpoint.pkl`) and **raw prediction plots** for all five examples (`Fluid_cylinder_scattering`, `Radial_velocity_gradient_3D`, `Marmousi`, `Overthrust`, `Otway`) are hosted separately on Zenodo, to keep the codebase lightweight:
 
-**[NAP-Wave: Validation data and saved checkpoints — Zenodo](https://doi.org/10.5281/zenodo.22085651)** (DOI: `10.5281/zenodo.22085651`)
+**[NAP-Wave: Validation data and saved checkpoints — Zenodo](https://zenodo.org/records/22237128)** (DOI: `10.5281/zenodo.22237128`)
 
 The record's files are currently restricted while the paper is under review — request access via the Zenodo page above. Once accessible, download the archive and place each example's `checkpoint.pkl` into that example's `Results/` folder to reproduce the metrics and figures in the [Results](#results) table below without retraining.
 
