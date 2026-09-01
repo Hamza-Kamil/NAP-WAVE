@@ -25,7 +25,7 @@ Hamza Kamil<sup>1,*</sup> &nbsp;·&nbsp; Mohammad Mahdi Abedi<sup>2</sup> &nbsp;
   <img alt="JAX" src="https://img.shields.io/badge/JAX-0.9.1-orange.svg">
   <img alt="Status" src="https://img.shields.io/badge/status-under%20review-yellow.svg">
   <img alt="License" src="https://img.shields.io/badge/license-MIT-green.svg">
-  <a href="https://doi.org/10.5281/zenodo.22085651"><img alt="DOI" src="https://img.shields.io/badge/DOI-10.5281%2Fzenodo.22085651-blue.svg"></a>
+  <a href="https://zenodo.org/records/22237128"><img alt="DOI" src="https://img.shields.io/badge/DOI-10.5281%2Fzenodo.22085651-blue.svg"></a>
 </p>
 
 <p align="center">
