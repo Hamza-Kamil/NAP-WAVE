@@ -1,0 +1,29 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+venv/
+env/
+.venv/
+*.egg-info/
+
+# Large / generated files
+NAP_WAVE_Helmholtz.pdf
+
+# Trained checkpoints and raw prediction plots -- hosted on Zenodo, not in
+# git (they're outputs, regenerable from a checkpoint via Evaluation/evaluate.py).
+# Validation data (*.npz) IS kept in git for every example, so the repo is
+# runnable out of the box and CI has real data to test against.
+Examples/*/Results/checkpoint.pkl
+Examples/*/Results/*_predictions.png
+
+# Local staging area for files uploaded to Zenodo -- never committed here.
+zenodo_upload/
+
+# Logs & credentials
+*.log
+Log into david server.txt

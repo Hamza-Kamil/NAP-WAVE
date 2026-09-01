@@ -1,0 +1,52 @@
+<svg width="900" height="220" viewBox="0 0 900 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B1420"/>
+      <stop offset="100%" stop-color="#101D2E"/>
+    </linearGradient>
+    <clipPath id="badgeClip">
+      <rect x="10" y="10" width="200" height="200" rx="36"/>
+    </clipPath>
+  </defs>
+
+  <!-- Solid dark card behind the whole logo (icon + wordmark), so the
+       light-colored text stays readable regardless of the page's own
+       background (GitHub's light theme, dark theme, anywhere else). -->
+  <rect x="0" y="0" width="900" height="220" rx="28" fill="url(#cardGrad)"/>
+
+  <rect x="10" y="10" width="200" height="200" rx="36" fill="url(#cardGrad)"/>
+
+  <g clip-path="url(#badgeClip)">
+    <!-- Pulse source: an incident plane wave (straight fronts, left) reaches
+         a point scatterer, which re-radiates outward as a sequence of
+         broken pulses rather than static rings, a literal, actively
+         "sending" picture of the Lippmann-Schwinger scattering problem. -->
+    <g fill="none" stroke="#6FE9D8" stroke-linecap="round">
+      <path d="M 100 84 A 20 20 0 0 1 138 100" stroke-width="5"/>
+      <path d="M 138 106 A 20 20 0 0 1 100 122" stroke-width="5"/>
+      <path d="M 90 66 A 38 38 0 0 1 152 92" stroke-width="4" opacity="0.7"/>
+      <path d="M 154 104 A 38 38 0 0 1 96 138" stroke-width="4" opacity="0.7"/>
+      <path d="M 82 48 A 58 58 0 0 1 172 88" stroke-width="3" opacity="0.42"/>
+      <path d="M 172 116 A 58 58 0 0 1 88 160" stroke-width="3" opacity="0.42"/>
+    </g>
+
+    <g stroke="#6FE9D8" stroke-width="6" stroke-linecap="round">
+      <line x1="8" y1="70" x2="58" y2="70"/>
+      <line x1="8" y1="100" x2="58" y2="100"/>
+      <line x1="8" y1="130" x2="58" y2="130"/>
+    </g>
+
+    <!-- The scatterer / source itself -->
+    <circle cx="112" cy="103" r="8" fill="#FFBB5C"/>
+  </g>
+  <rect x="10" y="10" width="200" height="200" rx="36" fill="none" stroke="#6FE9D8" stroke-width="2" opacity="0.5"/>
+
+  <text x="248" y="118" font-family="Helvetica, Arial, sans-serif" font-size="66" font-weight="700" fill="#F4F7FA">
+    NAP<tspan fill="#6FE9D8">-</tspan>WAVE
+  </text>
+  <text x="250" y="152" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#B9C4D0">
+    <tspan font-weight="700" fill="#6FE9D8">N</tspan>eural
+    <tspan font-weight="700" fill="#6FE9D8"> A</tspan>daptive
+    <tspan font-weight="700" fill="#6FE9D8"> P</tspan>lane-<tspan font-weight="700" fill="#6FE9D8">W</tspan>ave Basis Functions
+  </text>
+</svg>

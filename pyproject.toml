@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nap_wave"
+version = "0.0.1"
+description = "NAP-WAVE: Neural Adaptive Plane-Wave Basis Functions for Heterogeneous Seismic Modeling"
+readme = "README.md"
+requires-python = ">=3.11"  # jax==0.9.1 requires Python >=3.11
+authors = [
+    { name = "Hamza Kamil", email = "hkamil@bcamath.org" },
+]
+dependencies = [
+    # Pinned to the versions used on the Compute Canada cluster that
+    # produced this repo's reported results and checkpoints (see
+    # Examples/*/Results and the README results table) -- not to any one
+    # developer's local machine. If these results are ever regenerated
+    # elsewhere, re-pin from that environment's `pip freeze` output.
+    "jax==0.9.1",
+    "flax==0.12.6",
+    "optax==0.2.4",
+    "numpy==2.1.1",
+    "scipy==1.17.0",
+    "matplotlib==3.10.8",
+    # ml_collections version wasn't captured from either environment yet;
+    # floor+ceiling bounded in the meantime.
+    "ml_collections>=0.1,<0.2",
+]
+
+[project.optional-dependencies]
+cuda = [
+    "jax_cuda12_plugin==0.9.1",
+    "jax_cuda12_pjrt==0.9.1",
+]
+test = [
+    "pytest>=7",
+]
+
+[tool.setuptools.packages.find]
+include = ["nap_wave*"]
