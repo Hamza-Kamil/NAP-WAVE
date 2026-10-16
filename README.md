@@ -231,6 +231,6 @@ MIT — see [LICENSE](LICENSE).
 ## Release info
 
 - **Developer:** Hamza Kamil
-- **Version:** 1.0.0
+- **Version:** 0.1.0
 - **First release date:** 01-09-2026
 - **JAX version:** 0.9.1 (see `pyproject.toml`)
